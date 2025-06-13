@@ -14,7 +14,7 @@ def main():
         list_num_steps.append(collatz_steps(i))
     
     #print(list_num_steps)
-    print(list_num_steps.index(max(list_num_steps)))
+    print(list_num_steps.index(max(list_num_steps)) + 1)
 
 if __name__ == "__main__":
     main()
