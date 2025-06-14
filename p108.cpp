@@ -45,7 +45,7 @@ int main() {
         int divisors = countDivisorsOfNSquared(n);
         int numSolutions = (divisors + 1) / 2; // ceil(divisors / 2)
 
-        if (numSolutions > 1000) {
+        if (numSolutions > 4000000) {
             cout << "Smallest n with over 1000 solutions: " << n << endl;
             break;
         }
